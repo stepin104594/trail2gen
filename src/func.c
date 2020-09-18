@@ -27,7 +27,6 @@ if(NUM == 1) {
     case 3 : printf("\n SELETED MILLIMETERS TO KILOMETERS\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&DISTANCE);
@@ -43,8 +42,6 @@ if(NUM == 1) {
     printf("\n %f MILLIMETERS IS %f KILOMETERS\n",DISTANCE,METERS);
     break;
     }
-    QUIT:
-    getch();
     }
 
 else if(NUM == 2){
@@ -63,7 +60,6 @@ else if(NUM == 2){
     case 3 : printf("\n SELETED CENTIMETERS TO KILOMETERS\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT1;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&DISTANCE);
@@ -79,8 +75,6 @@ else if(NUM == 2){
     printf("\n %f CENTIMETERS IS %f KILOMETERS\n",DISTANCE,METERS);
     break;
     }
-    QUIT1:
-    getch();
     }
 else if(NUM == 3){
     printf("SELECT CONVERSION");
@@ -98,7 +92,6 @@ else if(NUM == 3){
     case 3 : printf("\n SELETED METERS TO KILOMETERS\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT2;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&DISTANCE);
@@ -114,8 +107,6 @@ else if(NUM == 3){
     printf("\n %f METERS IS %f KILOMETERS\n",DISTANCE,METERS);
     break;
     }
-    QUIT2:
-    getch();
     }
 else if(NUM == 4){
     printf("SELECT CONVERSION");
@@ -133,7 +124,6 @@ else if(NUM == 4){
     case 3 : printf("\n SELETED KILOMETERS TO METERS\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT3;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&DISTANCE);
@@ -149,8 +139,6 @@ else if(NUM == 4){
     printf("\n %f KILOMETERS IS %f METERS\n",DISTANCE,METERS);
     break;
     }
-    QUIT3:
-    getch();
     }
 else {
     printf("YOU HAVE ENTERED WRONG CHOICE !!!");
@@ -181,7 +169,6 @@ if(WEI == 1) {
     case 3 : printf("\n SELECTED MILLIGRAM TO TON\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT4;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&WEIGHT);
@@ -197,8 +184,6 @@ if(WEI == 1) {
     printf("\n %f MILLIGRAMS IS %f TONS\n",WEIGHT,GRAMS);
     break;
     }
-    QUIT4:
-    getch();
     }
 
 else if(WEI == 2) {
@@ -217,7 +202,6 @@ else if(WEI == 2) {
     case 3 : printf("\n SELECTED GRAM TO TON\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT5;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&WEIGHT);
@@ -233,8 +217,6 @@ else if(WEI == 2) {
     printf("\n %f GRAMS IS %f TONS\n",WEIGHT,GRAMS);
     break;
     }
-    QUIT5:
-    getch();
     }
 
 else if(WEI == 3) {
@@ -253,7 +235,6 @@ else if(WEI == 3) {
     case 3 : printf("\n SELECTED KILOGRAM TO TON\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT6;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&WEIGHT);
@@ -269,8 +250,6 @@ else if(WEI == 3) {
     printf("\n %f KILOGRAMS IS %f TONS\n",WEIGHT,GRAMS);
     break;
     }
-    QUIT6:
-    getch();
     }
 
 else if(WEI == 4) {
@@ -289,7 +268,6 @@ else if(WEI == 4) {
     case 3 : printf("\n SELECTED TON TO KILOGRAM\n");
     break;
     default : printf("YOU HAVE ENTERED WRONG CHOICE !!!");
-    goto QUIT7;
     }
     printf("ENTER WEIGHT HERE :");
     scanf("%f",&WEIGHT);
@@ -305,8 +283,6 @@ else if(WEI == 4) {
     printf("\n %f TON IS %f KILOGRAM\n",WEIGHT,GRAMS);
     break;
     }
-    QUIT7:
-    getch();
     }
 else {
     printf("YOU HAVE ENTERED WRONG CHOICE !!!");
